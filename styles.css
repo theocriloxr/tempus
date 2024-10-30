@@ -1,0 +1,432 @@
+body {
+    margin: 0%;
+    justify-content: center;
+    width: 100vw;
+}
+/*Start of Navigation*/
+/*Section 0*/
+#section0 {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 19px;
+    justify-content: center;
+    width: 100vw;
+}
+.navbar {
+    background: linear-gradient(to bottom, #1F1F1F, #343534);
+    width: 412px;
+    height: 41px;
+    border-radius: 21px;
+    font-size: 12px;
+    align-self: center;
+    opacity: 90%;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 11px 11px;
+    display: block;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+/*End of Navigation*/
+
+#mainframe {
+    background-color: black;
+    width: 94.5vw;
+    height: 705px;
+    color: black;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 29px;
+}
+
+#mainframe p {
+    position: relative;
+    color: white;
+    font-size: 61px;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+}
+
+#mainframe #bimg {
+    background-image: url('static//Gradient.png');
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    border-radius: 29px;
+}
+/*Ending of Section 0*/
+
+/*Section 1*/
+#section1 {
+    height: 1150px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('static/logo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#section1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    align-self: center;
+}
+#section11, #section12, #section13{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    padding-top: 65px;
+    gap: 20px;
+    padding-left: 70px;
+}
+
+#section11 ol, #section12 ol, #section13 ol{
+    font-family: Poppins;
+    font-size: 69px;
+    font-weight: 600;
+    line-height: 103.5px;
+    text-align: left;
+    width: 50%;
+    align-self: baseline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+#section11 p, #section12 p, #section13 div{
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28.5px;
+    text-align: left;
+
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+    flex: 1.7;
+}
+/*Ending of Section 1*/
+
+/*Section 2*/
+#section2 {
+    height: 1915px;
+    background-color: #282828;
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 70px;
+}
+
+
+#section20 {
+    display: flex;
+    align-items: center;
+    height: 270px;
+    position: relative
+}
+#section20 .left-text{
+    /*Our Product*/
+    color: #4A90FF;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    align-self: baseline;
+}
+#section20 .mid-text{
+    /*Nimbus*/
+    position: relative;
+    font-size: 300px;
+    font-family: 'Anton', sans-serif;
+    padding-left: 37px;
+}
+
+
+#section21 {
+    padding-top: 40px;
+    width: 100%;
+    height: 32%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+#section21 .image{
+    background-image: url("static/section2image0.png");
+    width: 100%;
+    height: 100%;
+}
+#section21 p{
+    text-align-last: justify;
+}
+#section22 {
+    padding-top: 82px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 71px;
+}
+#section22 .column{
+    margin: 5px;
+}
+#section22 h3{
+    color: #4A90FF;
+    font-size: 14px;
+}
+#section22 h1{
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+#section22 p{
+    color: #A0A0A0;
+    font-size: 15px;
+}
+#section22 video{
+    border-radius: 12px;
+    width: 100%;
+}
+#section22 .column-1{
+    gap: 24px;
+    flex: 3;
+}
+#section22 .column-2{
+    flex: 5;
+}
+#section220{
+    height: 75%;
+    display: flex;
+    align-items: first baseline;
+}
+#sect{
+    border-radius: 22px;
+}
+#section22 .column2 p{
+    flex: 128;
+    align-self: center;
+}
+.ellipse {
+    background-color: white;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 3035px;
+    left: 1043px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+}
+#bright-mind{
+    width: 29px;
+    height: 29px;
+    align-self: center;
+}
+
+/*Ending of Section 2*/
+
+/*Section 3*/
+#section3 {
+    width: 1280px;
+    height: 1804px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    gap: 57px;
+}
+
+#section3 em{
+    color: #4A90FF;
+    width: 1280px;
+}
+#section3 video{
+    width: 89.0625%;
+    border-radius: 45px;
+}
+#section30{
+    font-size: 16;
+    color: #062A5C;
+    padding-left: 70px;
+    padding-top: 52px;
+}
+#section31{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#section31 h1{
+    font-size: 50px;
+    margin-block: 0;
+}
+#section31 p{
+    align-self: center;
+    margin-right: 70px;
+    margin-left: 40px;
+    font-size: 16px;
+    opacity: 70%;
+}
+#section32{
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+}
+#section32 div{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#section32 img{
+    background-color: #4A90FF;
+    mix-blend-mode: luminosity;
+    border-radius: 30%;
+}
+#section32 p{
+    margin-bottom: 0;
+}
+#section32 h6{
+    opacity: 45%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#section33{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#section33 img{
+    position: absolute;
+    left: 75%;
+    top: 5263px;
+    animation: spin 12s ease-out infinite;
+}
+#section34{
+    background-color: #111726;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+#section34 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 180px;
+    text-align: left;
+    color: #262D3E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#section341 p{
+    justify-self: center;
+    font-size: 12px;
+}
+#seeection341{
+    padding-top: 20px;
+}
+#section342{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+#section343{
+    padding-top: 20px;
+}
+#section342 li{
+    list-style:none ;
+    color: white;
+    margin-top: 10px;
+}
+#section3420{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 17px;
+}
+#section343 ul{
+    font-size: 25px;
+    text-align: left;
+    align-content: space-evenly;
+    margin-top: 0px;
+}
+#section343 form{
+    background-color: transparent;
+}
+#section343 form label{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 50%;
+}
+#section343 input{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+@keyframes spin {
+    40%{
+        transform: rotate(30deg)
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    90%{
+        transform: rotate(150deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+/*Ending of Section 3*/
+@media only screen and (min-width:321px) and (max-width: 1024) {
+    body {
+      width: 100%; 
+      height: 0 auto;
+    }
+    .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7 {
+      width: 100%;
+      height: 0 auto;
+    }
+  }
+  @media only screen and (min-width: 1279) {
+    body {
+      width: 100%;
+      height: 0 auto;
+    }
+    .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7 {
+      width: 100%; 
+      height: 0 auto;
+    }
+  
+  }
+  @media only screen and (min-width: 1280px) and (max-width: 10000px) {
+      body {
+        width: 100%;
+        height: 76.26031164% auto;
+      }
+      .frame1, .frame2, .frame4, .frame5, .frame6, .frame7 {
+        width: 100%;
+        height: 76.26031164% auto;
+      }
+      .frame3{
+          width: 100%;
+          height: 199.6333639% auto;
+      }
+    }
+  
+  
