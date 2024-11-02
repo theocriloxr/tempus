@@ -17,17 +17,17 @@ body {
 }
 .navbar {
     background: linear-gradient(to bottom, #1F1F1F, #343534);
-    width: 412px;
-    height: 41px;
-    border-radius: 21px;
-    font-size: 12px;
+    width: 32.1875vw;
+    height: 4.994vh;
+    border-radius: 5.1% / 51.22%;
+    font-size: 1.4em;
     align-self: center;
     opacity: 90%;
 }
 .navbar ul {
     list-style: none;
-    padding: 0px 0px;
-    margin: 0;
+    padding: 0% 0%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -35,8 +35,8 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 11px 11px;
-    display: block;
+    padding: 2.7% 2.7%;
+    display: grid;
 }
 .navbar a:hover {
     background-color: #575757;
@@ -46,13 +46,13 @@ body {
 #mainframe {
     background-color: black;
     width: 94.5vw;
-    height: 705px;
+    height: 85.87vh;
     color: black;
     display: flex;
     align-content: center;
     align-self: center;
     text-align: center;
-    border-radius: 29px;
+    border-radius: 2.397%/4.11%;
 }
 
 #mainframe p {
@@ -66,7 +66,7 @@ body {
 
 #mainframe #bimg {
     background-image: url('static//Gradient.png');
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-content: center;
     text-align: center;
