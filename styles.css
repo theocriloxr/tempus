@@ -1,3 +1,4 @@
+
 body {
     margin: 0%;
     justify-content: center;
@@ -15,6 +16,7 @@ body {
     padding-top: 19px;
     justify-content: center;
     width: 100vw;
+    top: 0%;
 }
 .navbar {
     background: linear-gradient(to bottom, #1F1F1F, #343534);
@@ -69,6 +71,8 @@ body {
     background-image: url('static//Gradient.png');
     background-size: 100% 100%;
     display: flex;
+    width: 94.5vw;
+    height: 85.87vh;
     align-content: center;
     text-align: center;
     border-radius: 29px;
